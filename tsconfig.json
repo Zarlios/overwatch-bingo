@@ -1,0 +1,28 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "compilerOptions": {
+      "baseUrl": "./src",
+      "composite": false,
+      "declaration": true,
+      "declarationMap": true,
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "inlineSources": false,
+      "moduleResolution": "node",
+      "noUnusedLocals": false,
+      "noUnusedParameters": false,
+      "preserveWatchOutput": true,
+      "resolveJsonModule": true,
+      "skipLibCheck": true,
+      "strict": true,
+      "verbatimModuleSyntax": true,
+      "jsx": "react-jsx",
+      "lib": ["dom", "ES2015", "esnext"],
+      "module": "ESNext",
+      "noFallthroughCasesInSwitch": true,
+      "target": "es6"
+    },
+    "include": ["src"],
+    "exclude": ["node_modules"]
+  }
+  
